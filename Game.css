@@ -1,0 +1,25 @@
+body { background-color: #FFFFFF;color: #666666; }
+header { background-color : #710000;color: #FFFFFF; }
+h1 { margin-bottom:0;}
+nav { background-color: #FBBBBB; }
+h2 { color: #1976D2; }
+dt { color: #002171; }
+.resort { color: #1976D2; }
+.column {
+  float: left;
+  width: 27.33%;
+  padding: 0 px;
+}
+
+
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.dark-mode {
+    background-color: rgb(78, 73, 73);
+    color: white;
+  }
+  
